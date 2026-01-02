@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.count {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.warning {
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+}
